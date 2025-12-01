@@ -1,4 +1,3 @@
-
 def employee_details(name, emp_id, department, salary):
     result = (
         f"Employee Name: {name}\n"
@@ -7,6 +6,7 @@ def employee_details(name, emp_id, department, salary):
         f"Salary: {salary}"
     )
     return result
+
 
 if __name__ == "__main__":
     # Sample values
