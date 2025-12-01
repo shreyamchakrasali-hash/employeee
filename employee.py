@@ -1,3 +1,4 @@
+import pytest
 def employee_details(name, emp_id, department, salary):
     result = (
         f"Employee Name: {name}\n"
@@ -6,13 +7,10 @@ def employee_details(name, emp_id, department, salary):
         f"Salary: {salary}"
     )
     return result
-
-
-if __name__ == "__main__":
+if _name_ == "_main_":
     # Sample values
     name = "Alice"
     emp_id = "E1001"
     department = "IT"
     salary = 55000
-
-    print(employee_details(name, emp_id, department, salary))
+    print(employee_details(name, emp_id, department, salary))
